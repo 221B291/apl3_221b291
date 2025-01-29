@@ -36,6 +36,7 @@ class Lion extends Animal {
 
 class Voice {
     public void prepareVoice() {
+        System.out.println("Preparing voice...");
         Animal[] animals = new Animal[5];
         animals[0] = new Cow();
         animals[1] = new Dog();
@@ -47,6 +48,8 @@ class Voice {
     }
 
     public void hear(Animal[] animals) {
+       
+        System.out.println("Hearing voices of animals:");
         for (Animal animal : animals) {
             animal.makeVoice();
         }
