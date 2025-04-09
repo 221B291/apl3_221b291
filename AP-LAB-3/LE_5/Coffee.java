@@ -1,11 +1,11 @@
 public class Coffee extends Offering {
     @Override
-    public int getprice() {
+    public int GivePrice() {
 
         return 30;
     }
     @Override
-    public String getname() {
+    public String GiveName() {
         
         return "Coffee";
     }
