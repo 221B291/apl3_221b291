@@ -1,0 +1,12 @@
+1. Install Docker.exe
+2. Open Docker Network
+3. Let 2 Containers talk without hasle.
+4. docker network Is
+5. docker network create mongo-network
+6. docker run -d -p 27071:27071 --name mongo --                                                network mongo network -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO-INIT_ROOT_PASSWORD=admin mongo
+7. docker connected network inspect mongo-network // to see which container is connected to mongo-network
+8. docker pull hello-world
+9. docker run hello-world
+10. docker run -it ubuntu
+11. exit
+12. docker stop <id>
